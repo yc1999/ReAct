@@ -113,12 +113,18 @@ class WikiEnv(gym.Env):
         self.search_step("[" + entity + "]")
       else:
         self.page = ""
+        print("#"*100, "page")
+        print(page)
+        print("#"*100)
         for p in page:
           if len(p.split(" ")) > 2:
             self.page += clean_str(p)
             if not p.endswith("\n"):
               self.page += "\n"
         self.obs = self.get_page_obs(self.page)
+        print("#"*100, "self.obs")
+        print(self.obs)
+        print("#"*100)
         self.lookup_keyword = self.lookup_list = self.lookup_cnt = None
   
   def step(self, action):

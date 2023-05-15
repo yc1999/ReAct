@@ -12,6 +12,7 @@ HOTPOTQA_SPLIT_FILE = {
   "train": "hotpot_train_v1.1_simplified.json",
   "dev": "hotpot_dev_v1_simplified.json",
   "test": "hotpot_test_v1_simplified.json",
+  "tmp": "hotpot_tmp_v1_simplified.json",
 }
 
 FEVER_SPLIT_FILE = {
