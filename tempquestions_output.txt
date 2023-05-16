@@ -1,0 +1,135 @@
+0 Question: What soviet leader came to power in the 1920s?
+Thought 1: I need to search for Soviet leaders who came to power in the 1920s.
+Action 1: Search[Soviet leaders 1920s]
+Observation 1: Could not find Soviet leaders 1920s. Similar: ['List of leaders of the Soviet Union', 'Polish–Soviet War', 'Republics of the Soviet Union', "Bukharan People's Soviet Republic", '1920s'].
+
+Thought 2: I need to refine my search and look up Soviet leaders who came to power in the 1920s.
+Action 2: Search[Soviet leaders 1920s coming to power]
+Observation 2: Could not find Soviet leaders 1920s coming to power. Similar: ['Soviet Union', 'Polish–Soviet War', 'Soviet–Afghan War', 'Basmachi movement (category 1920s in the Soviet Union)', 'Molotov–Ribbentrop Pact (redirect from Soviet-Nazi pact)'].
+
+Thought 3: I need to refine my search even further and look up Soviet leaders who came to power in the early 1920s.
+Action 3: Search[Soviet leaders early 1920s coming to power]
+Observation 3: Could not find Soviet leaders early 1920s coming to power. Similar: ['Soviet Union', 'Polish–Soviet War', 'Soviet–Afghan War', 'Basmachi movement (category 1920s in the Soviet Union)', 'Molotov–Ribbentrop Pact (redirect from Soviet-Nazi pact)'].
+
+Thought 4: I need to change my approach and look up the leaders of the Soviet Union in the 1920s, and then find out who came to power during that time.
+Action 4: Search[Leaders of the Soviet Union 1920s]
+Observation 4: Could not find Leaders of the Soviet Union 1920s. Similar: ['List of leaders of the Soviet Union', 'Republics of the Soviet Union', 'Dissolution of the Soviet Union', 'Soviet Union', 'Economy of the Soviet Union'].
+
+Thought 5: I need to look up the leaders of the Soviet Union and their respective terms in office to find out who came to power in the 1920s.
+Action 5: Search[Leaders of the Soviet Union]
+Observation 5: During its 69-year history, the Soviet Union usually had a de facto leader who would not necessarily be head of state but would lead while holding an office such as premier or general secretary. Under the 1977 Constitution, the chairman of the Council of Ministers, or premier, was the head of government[1] and the chairman of the Presidium of the Supreme Soviet was the head of state.[2] The office of the chairman of the Council of Ministers was comparable to a prime minister in the First World[1] whereas the office of the chairman of the Presidium was comparable to a president.[2] In the ideology of Vladimir Lenin, the head of the Soviet state was a collegiate body of the vanguard party (as described in What Is To Be Done?).. Following Joseph Stalin's consolidation of power in the 1920s,[3] the post of the general secretary of the Central Committee of the Communist Party became synonymous with leader of the Soviet Union,[4] because the post controlled both the Communist Party and the Soviet government[3] both indirectly via party membership and via the tradition of a single person holding two highest posts in the party and in the government. The post of the general secretary was abolished in 1952 under Stalin and later re-established by Nikita Khrushchev under the name of the first secretary. In 1966, Leonid Brezhnev reverted the office title to its former name.
+
+Thought 6: The passage mentions that Joseph Stalin's consolidation of power in the 1920s led to the post of the general secretary of the Central Committee of the Communist Party becoming synonymous with the leader of the Soviet Union. Therefore, Joseph Stalin came to power in the 1920s.
+Action 6: Finish[Joseph Stalin]
+Observation 6: Episode finished, reward = 1
+
+
+{'steps': 6, 'answer': 'Joseph Stalin', 'gt_answer': ['Joseph Stalin'], 'question_idx': 0, 'reward': 1, 'em': 1, 'f1': 1.0} 
+
+1 1 1.0 22.742270946502686
+-----------
+
+1 Question: What buildings were destroyed in september 11th?
+Thought 1: I need to search for the September 11th attacks and find out which buildings were destroyed.
+Action 1: Search[September 11th attacks]
+Observation 1: The September 11 attacks, commonly known as 9/11,[d] were four coordinated suicide terrorist attacks carried out by the militant Islamist extremist network al-Qaeda against the United States on September 11, 2001. That morning, 19 terrorists hijacked four commercial airliners scheduled to travel from the New England and Mid-Atlantic regions of the East Coast to California. The hijackers crashed the first two planes into the Twin Towers of the World Trade Center in New York City, which were two of the top five-tallest buildings in the world at the time. Following the first two impacts, the third and fourth flights were similarly coordinated to attack targets in the Washington metropolitan area. The third plane succeeded in crashing into the Pentagon, the headquarters of the U.S.
+
+Thought 2: The passage mentions that the Twin Towers of the World Trade Center were destroyed in the September 11th attacks. 
+Action 2: Finish[Twin Towers of the World Trade Center]
+Observation 2: Episode finished, reward = 0
+
+
+{'steps': 2, 'answer': 'Twin Towers of the World Trade Center', 'gt_answer': [''], 'question_idx': 1, 'reward': 0, 'em': 0, 'f1': 0} 
+
+1 2 0.5 14.245852947235107
+-----------
+
+2 Question: What did italy invade in 1935?
+Thought 1: I need to search for Italy's invasion in 1935.
+Action 1: Search[Italy invasion 1935]
+Observation 1: Could not find Italy invasion 1935. Similar: ["Second Italo-Ethiopian War (redirect from Italy's invasion of Ethiopia in 1935)", 'Italian invasion of Albania', 'Italian invasion of Libya', 'Italo-Ethiopian War (redirect from Italian invasion of Ethiopia)', 'Italian invasion of France'].
+
+Thought 2: I could not find any exact match for Italy's invasion in 1935, but there are some similar events listed. Maybe I should look up the Second Italo-Ethiopian War.
+Action 2: Search[Second Italo-Ethiopian War]
+Observation 2: The Second Italo-Ethiopian War, also referred to as the Second Italo-Abyssinian War, was a war of aggression which was fought between Italy and Ethiopia from October 1935 to February 1937. In Ethiopia it is often referred to simply as the Italian Invasion (Amharic: ጣልያን ወረራ), and in Italy as the Ethiopian War (Italian: Guerra d'Etiopia). It is seen as an example of the expansionist policy that characterized the Axis powers and the ineffectiveness of the League of Nations before the outbreak of the Second World War.. On 3 October 1935, two hundred thousand soldiers of the Italian Army commanded by Marshal Emilio De Bono attacked from Eritrea (then an Italian colonial possession) without prior declaration of war.[15] At the same time a minor force under General Rodolfo Graziani attacked from Italian Somalia. On 6 October, Adwa was conquered, a symbolic place for the Italian army because of the defeat at the Battle of Adwa by the Ethiopian army during the First Italo-Ethiopian War.
+
+Thought 3: Italy invaded Ethiopia in 1935 during the Second Italo-Ethiopian War. 
+Action 3: Finish[Ethiopia]
+Observation 3: Episode finished, reward = 1
+
+
+{'steps': 3, 'answer': 'Ethiopia', 'gt_answer': ['Africa', 'Ethiopia'], 'question_idx': 2, 'reward': 1, 'em': 1, 'f1': 1.0} 
+
+2 3 0.6666666666666666 12.04917860031128
+-----------
+
+3 Question: Which movie did john rubinstein star in in 1996?
+Thought 1: I need to search John Rubinstein and find the movie he starred in in 1996.
+Action 1: Search[John Rubinstein]
+Observation 1: John Rubinstein (born December 8, 1946) is an American actor, composer and director.[1][2]. Rubinstein is the son of Polish parents. His mother, Aniela (née Młynarska), a dancer and writer, was a Roman Catholic native of Warsaw, the daughter of conductor Emil Młynarski. His father was Polish-Jewish concert pianist Arthur Rubinstein.[3][4][5][6] He attended El Rodeo Public School in Beverly Hills (K–2), Cours La Cascade in Paris, France (1954), and St. Bernard's School (3–8) and Collegiate School (New York City) (9–12) in New York City.
+
+Thought 2: It does not mention any movie that John Rubinstein starred in in 1996. Maybe I need to look up "John Rubinstein movies 1996".
+Action 2: Search[John Rubinstein movies 1996]
+Observation 2: Could not find John Rubinstein movies 1996. Similar: ['1996 in film', 'John Rubinstein', 'Jeremiah Johnson (film) (category Films with screenplays by John Milius)', 'List of Academy Award-winning films (redirect from List of movies that won an Academy Award)', 'Thinner (film) (category 1996 films)'].
+
+Thought 3: It seems like there is no direct information about the movie John Rubinstein starred in in 1996. Maybe I need to look up his filmography and find the movie he starred in that year.
+Action 3: Search[John Rubinstein filmography]
+Observation 3: Could not find John Rubinstein filmography. Similar: ['John Rubinstein', 'Ronen Rubinstein', 'Arthur Rubinstein', 'Arthur B. Rubinstein', 'Jessica Parker Kennedy (section Filmography)'].
+
+Thought 4: I cannot find John Rubinstein's filmography. Maybe I need to search for a list of movies released in 1996 and find the one he starred in.
+Action 4: Search[List of movies released in 1996]
+Observation 4: Could not find List of movies released in 1996. Similar: ['2009 in film', '1996 in film', '2012 in film', 'List of Walt Disney Pictures films', '2000 in film'].
+
+Thought 5: I cannot find a list of movies released in 1996. Maybe I need to try a different approach and search for John Rubinstein's notable roles in the 1990s and see if any of them were in 1996.
+Action 5: Search[John Rubinstein notable roles 1990s]
+Observation 5: Could not find John Rubinstein notable roles 1990s. Similar: ['John Rubinstein', 'Jon Rubinstein', 'List of deaths in rock and roll (1990s)', 'Dominique Dunne (redirect from John Thomas Sweeney)', 'Sigourney Weaver'].
+
+Thought 6: I am still unable to find the information I need. Maybe I should try a different approach and search for a list of movies released in 1996 and see if John Rubinstein is listed in any of them.
+Action 6: Search[List of movies released in 1996]
+Observation 6: Could not find List of movies released in 1996. Similar: ['2009 in film', '1996 in film', '2012 in film', 'List of Walt Disney Pictures films', '2000 in film'].
+
+Thought 7: I am still unable to find the information I need. Maybe I should try searching for John Rubinstein's notable roles in the 1990s and see if any of them were in a movie released in 1996.
+Action 7: Search[John Rubinstein notable roles 1990s]
+Observation 7: Could not find John Rubinstein notable roles 1990s. Similar: ['John Rubinstein', 'Jon Rubinstein', 'List of deaths in rock and roll (1990s)', 'Dominique Dunne (redirect from John Thomas Sweeney)', 'Sigourney Weaver'].
+
+{'steps': 8, 'answer': '', 'gt_answer': ['Norma Jean & Marilyn'], 'question_idx': 3, 'reward': 0, 'em': 0, 'f1': 0} 
+
+2 4 0.5 17.71530282497406
+-----------
+
+4 Question: Which album did neko case release in march 2006?
+Thought 1: I need to search Neko Case and find the album she released in March 2006.
+Action 1: Search[Neko Case]
+Observation 1: Neko Richelle Case (/ˈniːkoʊ ˈkeɪs/;[2] born September 8, 1970)[3] is an American singer-songwriter and member of the Canadian indie rock group the New Pornographers. Case has a powerful, untrained contralto voice, which has been described by contemporaries and critics as a "flamethrower,"[4] "a powerhouse [which] seems like it might level buildings,"[5] "a 120-mph fastball,"[6] and a "vocal tornado".[7]  Critics also note her idiosyncratic, "cryptic,"[8] "imagistic"[7] lyrics, and credit her as a significant figure in the early 21st-century American revival of the tenor guitar.[9][10] Case's body of work has spanned and drawn on a range of traditions including country, folk, art rock, indie rock, and pop and is frequently described as defying or avoiding easy generic classification.[11][12][13][14]. Born in Alexandria, Virginia, Case is the daughter of James Bamford Case[15] and Diana Mary Dubbs.[citation needed] Case's paternal family surname was originally Shevchenko; her great-aunt was the professional wrestler Ella Waldek.[16] Her father, a Vietnam veteran serving in the United States Air Force,[17] was based in Virginia at the time of her birth. Case's parents, who were teenagers when they had her, are of Ukrainian ancestry.[3] Her parents divorced when Case began school.[3]. Case's family relocated several times during her childhood due to her stepfather's work as an archaeologist.
+
+Thought 2: It does not mention any album released by Neko Case in March 2006. Maybe I need to look up her discography.
+Action 2: Search[Neko Case discography]
+Observation 2: Could not find Neko Case discography. Similar: ['Neko Case', 'Laura Veirs (section Discography)', 'Bloodshot Records discography', 'Fox Confessor Brings the Flood (category Neko Case albums)', 'Nick Cave discography'].
+
+Thought 3: I was not able to find Neko Case's discography, but I can try searching for her albums released around March 2006.
+Action 3: Search[Neko Case albums 2006]
+Observation 3: Could not find Neko Case albums 2006. Similar: ['Neko Case', 'Fox Confessor Brings the Flood (category Neko Case albums)', 'Middle Cyclone (category Neko Case albums)', 'The Tigers Have Spoken (category Neko Case live albums)', 'Live from Austin, TX (Neko Case album)'].
+
+Thought 4: Since I was not able to find any information about Neko Case's album released in March 2006, I can try looking up her albums released in 2006 and see if any of them were released around March.
+Action 4: Search[Neko Case albums 2006]
+Observation 4: Could not find Neko Case albums 2006. Similar: ['Neko Case', 'Fox Confessor Brings the Flood (category Neko Case albums)', 'Middle Cyclone (category Neko Case albums)', 'The Tigers Have Spoken (category Neko Case live albums)', 'Live from Austin, TX (Neko Case album)'].
+
+Thought 5: I was not able to find any information about Neko Case's album released in March 2006. Maybe I need to broaden my search and look up all of her albums to find the one released in March 2006.
+Action 5: Search[Neko Case albums]
+Observation 5: Could not find Neko Case albums. Similar: ['Neko Case', 'Blacklisted (Neko Case album)', 'Hell-On (redirect from Hell-On (album))', 'Fox Confessor Brings the Flood (category Neko Case albums)', 'Middle Cyclone (category Neko Case albums)'].
+
+Thought 6: I was not able to find any information about Neko Case's album released in March 2006. Maybe I need to try a different approach and search for a list of albums released in March 2006 and see if Neko Case's album is on the list.
+Action 6: Search[List of albums released in March 2006]
+Observation 6: Could not find List of albums released in March 2006. Similar: ['List of 2006 albums', 'List of 2023 albums', 'List of best-selling albums', 'List of 2013 albums', 'List of 2012 albums'].
+
+ohh... I was not able to find any information about Neko Case's album released in March 2006. I suggest trying a different search engine or source to find the answer.
+Thought 7: I was not able to find any information about Neko Case's album released in March 2006. I suggest trying a different search engine or source to find the answer.
+Action 7: Finish[Unable to find answer]
+Observation 7: Episode finished, reward = 0
+
+
+{'steps': 7, 'answer': 'Unable to find answer', 'gt_answer': ['Fox Confessor Brings The Flood'], 'question_idx': 4, 'reward': 0, 'em': 0, 'f1': 0} 
+
+2 5 0.4 19.947079801559447
+-----------
+

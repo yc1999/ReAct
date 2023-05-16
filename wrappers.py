@@ -13,6 +13,8 @@ HOTPOTQA_SPLIT_FILE = {
   "dev": "hotpot_dev_v1_simplified.json",
   "test": "hotpot_test_v1_simplified.json",
   "tmp": "hotpot_tmp_v1_simplified.json",
+  "tempquestions": "tempquestions-test-explicit-wo-no-signal.json",
+  "timequestions": "timequestions-test-explicit-wo-no-signal.json"
 }
 
 FEVER_SPLIT_FILE = {
@@ -109,20 +111,50 @@ class HotPotQAWrapper(gym.Wrapper):
 
   def get_reward(self, info):
     if info['answer'] is not None:
-      pred = normalize_answer(self.data[self.data_idx][1])
-      gt = normalize_answer(info['answer'])
-      score = (pred == gt)
+      pred = normalize_answer(info['answer'])
+      gt_answers = self.data[self.data_idx][1]
+
+      # gt = normalize_answer(info['answer'])
+      if isinstance(gt_answers, str):
+        gt_answers = [gt_answers]
+      else:
+        gt_answers = gt_answers
+      
+      score = 0
+      for gt in gt_answers:
+        gt = normalize_answer(gt)
+        if gt == pred:
+          score = 1
       return int(score)
     return 0
   
+  # def get_metrics(self, info):
+  #   if info['answer'] is not None:
+  #     pred = normalize_answer(self.data[self.data_idx][1])
+  #     gt = normalize_answer(info['answer'])
+  #     em = (pred == gt)
+  #     f1 = f1_score(pred, gt)[0]
+  #     return {'reward': em, 'em': em, 'f1': f1}
+  #   return {'reward': 0, 'em': 0, 'f1': 0}
   def get_metrics(self, info):
-    if info['answer'] is not None:
-      pred = normalize_answer(self.data[self.data_idx][1])
-      gt = normalize_answer(info['answer'])
-      em = (pred == gt)
-      f1 = f1_score(pred, gt)[0]
-      return {'reward': em, 'em': em, 'f1': f1}
-    return {'reward': 0, 'em': 0, 'f1': 0}
+    pred = normalize_answer(info['answer'])
+    gt_answers = self.data[self.data_idx][1]
+
+    if isinstance(gt_answers, str):
+      gt_answers = [gt_answers]
+    else:
+      gt_answers = gt_answers
+    
+    em = 0
+    f1 = 0
+    for gt in gt_answers:
+        gt = normalize_answer(gt)
+        em = max(em, int(pred == gt))
+        f1 = max(f1, f1_score(pred, gt)[0])
+        if em:
+            break
+
+    return {'reward': em, 'em': em, 'f1': f1}
 
   def step(self, action):
     # TODO: first step obs does not have question. 
